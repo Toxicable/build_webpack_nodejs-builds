@@ -1,0 +1,46 @@
+{
+  "name": "@angular-devkit/build-webpack-nodejs",
+  "version": "0.0.1",
+  "description": "Server Webpack build facaded",
+  "main": "src/index.js",
+  "typings": "src/index.d.ts",
+  "builders": "builders.json",
+  "dependencies": {
+    "@angular-devkit/architect": "0.5.4",
+    "@angular-devkit/core": "0.5.4",
+    "tree-kill": "^1.2.0",
+    "circular-dependency-plugin": "^5.0.0",
+    "license-webpack-plugin": "^1.2.3",
+    "chalk": "~2.2.2",
+    "stats-webpack-plugin": "^0.6.2",
+    "ts-loader": "^4.1.0",
+    "webpack-node-externals": "^1.7.2",
+    "rxjs": "^5.5.8",
+    "fork-ts-checker-webpack-plugin": "^0.4.1",
+    "webpack-merge": "^4.1.2",
+    "webpack": "4.1.0"
+  },
+  "peerDependencies": {
+    "typescript": "~2.7.2"
+  },
+  "keywords": [
+    "angular",
+    "devkit",
+    "sdk",
+    "Angular DevKit"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular/devkit.git"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.5.1"
+  },
+  "author": "Angular Authors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angular/devkit/issues"
+  },
+  "homepage": "https://github.com/angular/devkit"
+}
