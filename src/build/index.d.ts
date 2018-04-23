@@ -28,6 +28,5 @@ export declare class ServerBuilder implements Builder<NodejsBuildBuilderOptions>
     context: BuilderContext;
     constructor(context: BuilderContext);
     run(target: BuilderConfiguration<NodejsBuildBuilderOptions>): Observable<BuildEvent>;
-    private startWebpack(watch, compiler, verbose);
 }
 export default ServerBuilder;
