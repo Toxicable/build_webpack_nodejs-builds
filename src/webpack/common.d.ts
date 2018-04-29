@@ -11,5 +11,7 @@ export interface BuildOptions {
     verbose: boolean;
     extractLicenses: boolean;
     showCircularDependencies: boolean;
+    hmr: boolean;
+    hmrPollInterval: number;
 }
 export declare function getCommonWebpackConfig(entry: string, outDir: string, tsconfigPath: string, outfileName: string, buildOptions: BuildOptions): RealWebpackConfig;

@@ -23,6 +23,8 @@ export interface NodejsBuildBuilderOptions {
     statsJson: boolean;
     extractLicenses: boolean;
     showCircularDependencies: boolean;
+    hmr: boolean;
+    hmrPollInterval: number;
 }
 export declare class ServerBuilder implements Builder<NodejsBuildBuilderOptions> {
     context: BuilderContext;
